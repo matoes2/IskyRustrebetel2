@@ -1,0 +1,8 @@
+#Open Git Bash use cd /pathtoproject
+#Get everyone's changes
+git pull
+
+#Push changes
+git add .
+git commit -m "your commit message"
+git push
