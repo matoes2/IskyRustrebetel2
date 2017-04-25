@@ -1,0 +1,1029 @@
+﻿Log file open, 04/24/17 18:43:55
+LogInit:Display: Running engine for game: IskyRestrubel
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1544234168) SRandInit(1544234168).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083424
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.24-22.43.56:996][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.24-22.43.56:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.24-22.43.57:014][  0]LogInit: Computer: DESKTOP-RAF421J
+[2017.04.24-22.43.57:014][  0]LogInit: User: Alex
+[2017.04.24-22.43.57:014][  0]LogInit: CPU Page size=65536, Cores=1
+[2017.04.24-22.43.57:014][  0]LogInit: High frequency timer resolution =3.606726 MHz
+[2017.04.24-22.43.57:014][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.24-22.43.57:014][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.24-22.43.57:014][  0]LogMemory: Process Physical Memory: 262.61 MB used, 262.61 MB peak
+[2017.04.24-22.43.57:014][  0]LogMemory: Process Virtual Memory: 262.29 MB used, 262.29 MB peak
+[2017.04.24-22.43.57:014][  0]LogMemory: Physical Memory: 4352.42 MB used,  3784.22 MB free, 8136.64 MB total
+[2017.04.24-22.43.57:014][  0]LogMemory: Virtual Memory: 638.24 MB used,  3784.22 MB free, 134217728.00 MB total
+[2017.04.24-22.43.57:166][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.24-22.43.58:327][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.24-22.44.00:188][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.04.24-22.44.00:188][  0]LogD3D11RHI:       2017/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.24-22.44.00:191][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.24-22.44.00:191][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.24-22.44.00:191][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.24-22.44.00:199][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.24-22.44.00:199][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.24-22.44.00:199][  0]LogWindows: EnumDisplayDevices:
+[2017.04.24-22.44.00:199][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.04.24-22.44.00:200][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.04.24-22.44.00:200][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.04.24-22.44.00:200][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.04.24-22.44.00:200][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.04.24-22.44.00:200][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.24-22.44.00:200][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.24-22.44.00:200][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.24-22.44.02:044][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.24-22.44.02:085][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 0)
+[2017.04.24-22.44.02:135][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Intermediate/Shaders/WorkingDirectory/8224/).
+[2017.04.24-22.44.02:135][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/FD601F1F4E507A3E27DF988AC3CCFA85/'.
+[2017.04.24-22.44.02:135][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.24-22.44.04:425][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.24-22.44.04:535][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.24-22.44.04:643][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.24-22.44.04:749][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.24-22.44.04:857][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.24-22.44.04:964][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.24-22.44.05:069][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.24-22.44.05:179][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.24-22.44.05:270][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.24-22.44.05:375][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.24-22.44.05:480][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.24-22.44.05:591][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.24-22.44.05:695][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.24-22.44.05:802][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.24-22.44.05:906][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.24-22.44.06:119][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.24-22.44.06:119][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.24-22.44.06:198][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.24-22.44.06:367][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.24-22.44.06:436][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.24-22.44.06:544][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.24-22.44.06:651][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.24-22.44.06:757][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.24-22.44.06:862][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.24-22.44.06:862][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.24-22.44.07:739][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.24-22.44.07:853][  0]LogDerivedDataCache: Loaded boot cache 0.11s 50MB C:/Users/Alex/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.24-22.44.07:854][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.24-22.44.07:854][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.24-22.44.07:854][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.24-22.44.07:854][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.24-22.44.07:854][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.24-22.44.07:881][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.24-22.44.07:894][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.24-22.44.07:911][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.24-22.44.07:912][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.24-22.44.07:912][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.24-22.44.08:480][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.24-22.44.08:486][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.24-22.44.08:959][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.24-22.44.09:070][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.24-22.44.09:181][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.24-22.44.09:181][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.24-22.44.09:181][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.24-22.44.10:422][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: iskyrestrubel, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3238313141
+[2017.04.24-22.44.10:504][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.04.24-22.44.10:625][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.066073 seconds
+[2017.04.24-22.44.10:634][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.24-22.44.10:634][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.24-22.44.10:634][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.24-22.44.10:803][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.24-22.44.14:838][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.24-22.44.14:916][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.24-22.44.15:966][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.24-22.44.16:883][  0]SourceControl: Info Source control is disabled
+[2017.04.24-22.44.17:005][  0]SourceControl: Info Source control is disabled
+[2017.04.24-22.44.17:120][  0]SourceControl: Info Source control is disabled
+[2017.04.24-22.44.17:232][  0]SourceControl: Info Source control is disabled
+[2017.04.24-22.44.17:962][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.04.24-22.44.17:963][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.04.24-22.44.17:963][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2017.04.24-22.44.20:265][  0]LogEngine: Initializing Engine...
+[2017.04.24-22.44.20:266][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.24-22.44.20:825][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.24-22.44.20:841][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-22.44.20:891][  0]LogInit: FAudioDevice initialized.
+[2017.04.24-22.44.20:951][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/Alex/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.24-22.44.20:970][  0]LogInit: Texture streaming: Enabled
+[2017.04.24-22.44.21:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.24-22.44.21:484][  0]LogInit: Transaction tracking system initialized
+[2017.04.24-22.44.22:403][  0]BlueprintLog: New page: Editor Load
+[2017.04.24-22.44.24:748][  0]LocalizationService: Info Localization service is disabled
+[2017.04.24-22.44.26:471][  0]LogConsoleResponse:Display: 
+[2017.04.24-22.44.26:927][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.24-22.44.26:927][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.24-22.44.29:570][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/' took 0.01s
+[2017.04.24-22.44.29:570][  0]SourceControl: Info Source control is disabled
+[2017.04.24-22.44.29:570][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.24-22.44.29:571][  0]LightingResults: New page: Lighting Build
+[2017.04.24-22.44.29:683][  0]MapCheck: New page: Map Check
+[2017.04.24-22.44.29:683][  0]LightingResults: New page: Lighting Build
+[2017.04.24-22.44.29:838][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/BPProjectileLaser'
+[2017.04.24-22.44.29:839][  0]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/BPProjectileLaser' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset.
+[2017.04.24-22.44.29:839][  0]LoadErrors:Error: Error /Game/Blueprints/BPPlayer : Can't find file for asset. /Game/Blueprints/BPProjectileLaser
+[2017.04.24-22.44.29:845][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/BPProjectileLaser'
+[2017.04.24-22.44.29:845][  0]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/BPProjectileLaser' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset.
+[2017.04.24-22.44.29:845][  0]LoadErrors:Error: Error /Game/Blueprints/BPPlayer : Can't find file for asset. /Game/Blueprints/BPProjectileLaser
+[2017.04.24-22.44.29:851][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/BPProjectileLaser'
+[2017.04.24-22.44.29:851][  0]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/BPProjectileLaser' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPGameController.uasset.
+[2017.04.24-22.44.29:851][  0]LoadErrors:Error: Error /Game/Blueprints/BPGameController : Can't find file for asset. /Game/Blueprints/BPProjectileLaser
+[2017.04.24-22.44.29:852][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/BPProjectileLaser'
+[2017.04.24-22.44.29:852][  0]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/BPProjectileLaser' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPGameController.uasset.
+[2017.04.24-22.44.29:852][  0]LoadErrors:Error: Error /Game/Blueprints/BPGameController : Can't find file for asset. /Game/Blueprints/BPProjectileLaser
+[2017.04.24-22.44.29:852][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/BPProjectileLaser'
+[2017.04.24-22.44.29:852][  0]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/BPProjectileLaser' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPGameController.uasset.
+[2017.04.24-22.44.29:852][  0]LoadErrors:Error: Error /Game/Blueprints/BPGameController : Can't find file for asset. /Game/Blueprints/BPProjectileLaser
+[2017.04.24-22.44.29:864][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/BPProjectileLaser'
+[2017.04.24-22.44.29:864][  0]LoadErrors: Info Failed to load /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C Referenced by K2Node_SpawnActorFromClass_7
+[2017.04.24-22.44.29:864][  0]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/BPProjectileLaser' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPGameController.uasset.
+[2017.04.24-22.44.29:864][  0]LoadErrors: Info Failed to load /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C Referenced by K2Node_SpawnActorFromClass_7
+[2017.04.24-22.44.29:864][  0]LoadErrors:Error: Error /Game/Blueprints/BPGameController : Can't find file for asset. /Game/Blueprints/BPProjectileLaser
+[2017.04.24-22.44.29:865][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/BPProjectileLaser'
+[2017.04.24-22.44.29:865][  0]LoadErrors: Info Failed to load /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C Referenced by K2Node_SpawnActorFromClass_7
+[2017.04.24-22.44.29:865][  0]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/BPProjectileLaser' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPGameController.uasset.
+[2017.04.24-22.44.29:865][  0]LoadErrors: Info Failed to load /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C Referenced by K2Node_SpawnActorFromClass_7
+[2017.04.24-22.44.29:865][  0]LoadErrors:Error: Error /Game/Blueprints/BPGameController : Can't find file for asset. /Game/Blueprints/BPProjectileLaser
+[2017.04.24-22.44.29:930][  0]LogBlueprint:Error: [Compiler BPPlayer] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.04.24-22.44.29:974][  0]LogBlueprint:Warning: [Compiler BPPlayer] Warning [0036.16] Compile of BPPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 82 ms] (/Game/Blueprints/BPPlayer.BPPlayer)
+[2017.04.24-22.44.29:974][  0]LogBlueprint:Warning: [Compiler BPPlayer] Warning [0036.16] Compile of BPPlayer failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/BPPlayer.BPPlayer)
+[2017.04.24-22.44.29:974][  0]LogBlueprint:Warning: [Compiler BPPlayer] Warning [0036.16] Compile of BPPlayer failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/BPPlayer.BPPlayer)
+[2017.04.24-22.44.29:991][  0]LogBlueprint:Error: [Compiler BPPlayer] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.04.24-22.44.30:030][  0]LogBlueprint:Warning: [Compiler BPPlayer] Warning [0036.21] Compile of BPPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 50 ms] (/Game/Blueprints/BPPlayer.BPPlayer)
+[2017.04.24-22.44.30:030][  0]LogBlueprint:Warning: [Compiler BPPlayer] Warning [0036.21] Compile of BPPlayer failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/BPPlayer.BPPlayer)
+[2017.04.24-22.44.30:030][  0]LogBlueprint:Warning: [Compiler BPPlayer] Warning [0036.21] Compile of BPPlayer failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/BPPlayer.BPPlayer)
+[2017.04.24-22.44.30:448][  0]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-22.44.30:842][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.24-22.44.30:843][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.24-22.44.30:944][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.744ms to complete.
+[2017.04.24-22.44.30:944][  0]LogFileHelpers: Loading map 'MapMain' took 1.374
+[2017.04.24-22.44.31:007][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.24-22.44.31:197][  0]LogCollectionManager: Loaded 0 collections in 0.001260 seconds
+[2017.04.24-22.44.31:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/Collections/' took 0.01s
+[2017.04.24-22.44.31:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Developers/Alex/Collections/' took 0.01s
+[2017.04.24-22.44.31:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Collections/' took 0.01s
+[2017.04.24-22.44.31:323][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.24-22.44.31:338][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2245 classes and 453 folders.
+[2017.04.24-22.44.31:344][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.24-22.44.31:344][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.24-22.44.31:469][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.04.24-22.44.31:545][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.04.24-22.44.31:630][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.24-22.44.31:796][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.24-22.44.31:806][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.24-22.44.31:906][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.04.24-22.44.31:906][  0]LogLoad: (Engine Initialization) Total time: 38.09 seconds
+[2017.04.24-22.44.31:906][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.41 seconds
+[2017.04.24-22.44.31:906][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.24-22.44.31:906][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.24-22.44.31:915][  0]LogOcInput: OculusInput pre-init called
+[2017.04.24-22.44.31:943][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.24-22.44.31:961][  0]LogSlate: Took 0.000456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.24-22.44.31:968][  0]LogSlate: Took 0.000477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.24-22.44.31:979][  0]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.24-22.44.32:139][  0]LogRenderer: Reallocating scene render targets to support 684x544 NumSamples 1 (Frame:2).
+[2017.04.24-22.44.32:257][  0]LogSlate: Took 0.000398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.24-22.44.32:570][  2]LogAssetRegistry: Asset discovery search completed in 22.0880 seconds
+[2017.04.24-22.44.32:570][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000017 seconds (found 0 objects)
+[2017.04.24-22.44.32:570][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.04.24-22.44.39:096][573]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.24-22.44.39:814][573]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.24-22.44.40:025][573]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 112 classes and 0 folders.
+[2017.04.24-22.44.41:081][573]LogSlate: Took 0.000401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.24-22.44.41:526][574]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.24-22.44.44:817][721]BlueprintLog: New page: Compile BPPlayer
+[2017.04.24-22.44.44:870][721]LogBlueprint:Error: [Compiler BPPlayer] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.04.24-22.44.45:188][721]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.04.24-22.44.45:189][721]LogBlueprint:Warning: [Compiler BPPlayer] Warning [0051.37] Compile of BPPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 371 ms] (/Game/Blueprints/BPPlayer.BPPlayer)
+[2017.04.24-22.45.21:619][665]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.24-22.45.44:231][208]BlueprintLog: New page: Compile BPPlayer
+[2017.04.24-22.45.45:263][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPPlayer" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset" SILENT=true
+[2017.04.24-22.45.45:378][235]LogSavePackage: Save=96.95ms
+[2017.04.24-22.45.45:378][235]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPPlayer387E52F24544118122D530992E7ADE6E.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset'
+[2017.04.24-22.45.45:383][235]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset
+[2017.04.24-22.45.56:074][ 78]LogRenderer: Reallocating scene render targets to support 964x876 NumSamples 1 (Frame:3124).
+[2017.04.24-22.45.59:839][316]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-22.45.59:860][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-22.45.59:860][316]PIE: New page: PIE session: MapMain (Apr 24, 2017, 2:45:59 PM)
+[2017.04.24-22.45.59:860][316]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-22.45.59:862][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002261s)
+[2017.04.24-22.45.59:867][316]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-22.45.59:868][316]LogPlayLevel: PIE: World Init took: (0.005171s)
+[2017.04.24-22.45.59:868][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.007679s)
+[2017.04.24-22.45.59:893][316]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-22.45.59:893][316]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-22.45.59:893][316]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-22.45.59:917][316]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-22.45.59:932][316]LogInit: FAudioDevice initialized.
+[2017.04.24-22.45.59:956][316]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-22.45.59:958][316]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-18.45.59
+[2017.04.24-22.45.59:958][316]LogWorld: Bringing up level for play took: 0.001141
+[2017.04.24-22.46.00:052][316]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.04.24-22.46.00:054][316]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain -0.524
+[2017.04.24-22.46.55:451][656]LogEditorTransaction: Undo Move Node
+[2017.04.24-22.46.55:487][656]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.24-22.48.05:135][465]LogEditorTransaction: Undo Add Node
+[2017.04.24-22.48.34:996][802]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.24-22.50.15:868][366]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.04.24-22.50.15:870][366]LogLinker: Can't find file '/Game/Blueprint/BPProjectileLaser'
+[2017.04.24-22.50.15:870][366]LogLinker: Can't find file '/Game/Blueprint/BPProjectileLaser'
+[2017.04.24-22.50.15:904][366]LogBlueprint:Warning: [BPProjectileLaser] 'ProjectileColour' variable not found. Base class was probably changed.
+[2017.04.24-22.50.15:931][366]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.04.24-22.50.34:690][289]LogEditorTransaction: Undo Move Node
+[2017.04.24-22.50.35:416][314]LogEditorTransaction: Undo Move Nodes
+[2017.04.24-22.50.37:202][391]LogEditorTransaction: Undo Resize Node
+[2017.04.24-22.50.42:936][675]LogEditorTransaction: Undo Move Node
+[2017.04.24-22.52.30:329][957]LogEditorTransaction: Undo New Value Entered
+[2017.04.24-22.53.53:828][917]LogEditorTransaction: Undo New Time Entered
+[2017.04.24-22.55.30:552][419]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-22.55.30:577][419]LogBlueprint:Warning: [Compiler BPProjectileLaser] Warning Could not find a variable named "ProjectileColour" in 'BPProjectileLaser_C'.
+Make sure 'BPProjectileLaser_C' has been compiled for  Get ProjectileColour
+[2017.04.24-22.55.30:580][419]LogBlueprint:Error: [Compiler BPProjectileLaser] Error The property associated with  Projectile Colour  could not be found
+[2017.04.24-22.55.30:999][419]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ProjectileColour" in 'BPProjectileLaser_C'.
+Make sure 'BPProjectileLaser_C' has been compiled for  Get ProjectileColour
+[2017.04.24-22.55.30:999][419]BlueprintEditorCompileResults:Error: Error The property associated with  Projectile Colour  could not be found
+[2017.04.24-22.55.31:000][419]LogBlueprint:Warning: [Compiler BPProjectileLaser] Warning [0697.18] Compile of BPProjectileLaser failed. 1 Fatal Issue(s) 1 Warning(s) [in 447 ms] (/Game/Blueprints/BPProjectileLaser.BPProjectileLaser)
+[2017.04.24-22.55.31:660][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectileLaser" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset" SILENT=true
+[2017.04.24-22.55.31:710][439]LogSavePackage: Save=47.54ms
+[2017.04.24-22.55.31:710][439]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectileLaser15D9DE614CC41542BFC61D89816408EC.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset'
+[2017.04.24-22.55.31:714][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset
+[2017.04.24-22.56.42:469][252]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-22.57.30:569][ 14]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-22.58.06:803][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectileLaser" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset" SILENT=true
+[2017.04.24-22.58.06:870][160]LogSavePackage: Save=43.32ms
+[2017.04.24-22.58.06:870][160]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectileLaserA2627B8A4E5506366E7B48AF4FCF70A8.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset'
+[2017.04.24-22.58.06:874][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset
+[2017.04.24-22.58.10:559][361]LogEditorViewport: Clicking Background
+[2017.04.24-22.58.21:421][898]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-22.58.22:086][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectileLaser" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset" SILENT=true
+[2017.04.24-22.58.22:151][910]LogSavePackage: Save=47.12ms
+[2017.04.24-22.58.22:151][910]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectileLaser6472D79B4E464DEA44F409A082DC9F08.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset'
+[2017.04.24-22.58.22:156][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset
+[2017.04.24-22.58.59:600][657]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-22.58.59:626][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-22.58.59:626][657]PIE: New page: PIE session: MapMain (Apr 24, 2017, 2:58:59 PM)
+[2017.04.24-22.58.59:626][657]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-22.58.59:628][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001536s)
+[2017.04.24-22.58.59:631][657]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-22.58.59:631][657]LogPlayLevel: PIE: World Init took: (0.003634s)
+[2017.04.24-22.58.59:631][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.005440s)
+[2017.04.24-22.58.59:661][657]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-22.58.59:661][657]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-22.58.59:661][657]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-22.58.59:681][657]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-22.58.59:697][657]LogInit: FAudioDevice initialized.
+[2017.04.24-22.58.59:704][657]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-22.58.59:706][657]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-18.58.59
+[2017.04.24-22.58.59:706][657]LogWorld: Bringing up level for play took: 0.001321
+[2017.04.24-22.58.59:709][657]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain -0.869
+[2017.04.24-22.59.04:951][970]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_0
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-22.59.04:966][970]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-22.59.14:902][580]LogScript:Warning: Attempted to access Movement via property Movement, but Movement is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_2
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0094
+[2017.04.24-22.59.14:903][580]PIE:Error: Error Blueprint Runtime Error: Attempted to access Movement via property Movement, but Movement is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: Movement in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Movement via property Movement, but Movement is pending kill
+[2017.04.24-22.59.15:863][639]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_3
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-22.59.15:863][639]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-22.59.17:235][724]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_5
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-22.59.17:235][724]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-22.59.19:569][867]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_6
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-22.59.19:569][867]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-22.59.23:366][ 99]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_7
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-22.59.23:366][ 99]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-22.59.25:407][221]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_9
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-22.59.25:407][221]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.00.58:052][629]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-23.01.01:469][813]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-23.01.01:498][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-23.01.01:499][813]PIE: New page: PIE session: MapMain (Apr 24, 2017, 3:01:01 PM)
+[2017.04.24-23.01.01:499][813]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-23.01.01:501][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001868s)
+[2017.04.24-23.01.01:504][813]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-23.01.01:504][813]LogPlayLevel: PIE: World Init took: (0.003572s)
+[2017.04.24-23.01.01:504][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.005710s)
+[2017.04.24-23.01.01:543][813]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-23.01.01:543][813]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-23.01.01:543][813]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-23.01.01:570][813]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-23.01.01:590][813]LogInit: FAudioDevice initialized.
+[2017.04.24-23.01.01:599][813]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-23.01.01:601][813]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-19.01.01
+[2017.04.24-23.01.01:601][813]LogWorld: Bringing up level for play took: 0.001393
+[2017.04.24-23.01.01:604][813]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain 1.026
+[2017.04.24-23.01.13:998][464]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_1
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.13:998][464]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.15:417][539]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_2
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.15:417][539]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.16:821][611]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_3
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.16:821][611]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.21:782][865]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_5
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.21:782][865]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.24:342][996]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_7
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.24:342][996]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.30:892][325]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_10
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.30:892][325]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.34:165][487]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_13
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.34:165][487]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.36:152][585]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_15
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.36:152][585]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.37:212][638]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_16
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.37:213][638]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.38:301][693]LogScript:Warning: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+	BPProjectileLaser_C /Game/Maps/UEDPIE_0_MapMain.MapMain:PersistentLevel.BPProjectileLaser_C_17
+	Function /Game/Blueprints/BPProjectileLaser.BPProjectileLaser_C:ExecuteUbergraph_BPProjectileLaser:0059
+[2017.04.24-23.01.38:301][693]PIE:Error: Error Blueprint Runtime Error: Attempted to access Projectile via property Projectile, but Projectile is pending kill from function: 'ExecuteUbergraph_BPProjectileLaser' from node: SetRelativeLocation in graph: EventGraph in object: BPProjectileLaser with description: Attempted to access Projectile via property Projectile, but Projectile is pending kill
+[2017.04.24-23.01.46:152][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectileLaser" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset" SILENT=true
+[2017.04.24-23.01.46:227][199]LogSavePackage: Save=55.27ms
+[2017.04.24-23.01.46:227][199]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectileLaser59B94DBF44D6BE1F1D20AD8DB1D61618.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset'
+[2017.04.24-23.01.46:233][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset
+[2017.04.24-23.02.50:294][925]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-23.05.32:251][374]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-23.05.33:405][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectileLaser" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset" SILENT=true
+[2017.04.24-23.05.33:485][429]LogSavePackage: Save=58.12ms
+[2017.04.24-23.05.33:485][429]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectileLaserA0D75BA643D65799BEBFB6BE6683AEFE.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset'
+[2017.04.24-23.05.33:490][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset
+[2017.04.24-23.05.51:148][839]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-23.05.52:105][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectileLaser" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset" SILENT=true
+[2017.04.24-23.05.52:182][878]LogSavePackage: Save=60.06ms
+[2017.04.24-23.05.52:182][878]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectileLaserD94FF3084E16A4C75C8AAFBF6E09BCFC.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset'
+[2017.04.24-23.05.52:187][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset
+[2017.04.24-23.06.11:582][505]BlueprintLog: New page: Compile BPProjectileLaser
+[2017.04.24-23.06.12:304][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectileLaser" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset" SILENT=true
+[2017.04.24-23.06.12:381][526]LogSavePackage: Save=61.10ms
+[2017.04.24-23.06.12:381][526]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectileLaserAB4DA15141FF3C8933EE71ABDB88B48D.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset'
+[2017.04.24-23.06.12:385][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset
+[2017.04.24-23.06.14:311][677]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-23.06.14:343][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-23.06.14:344][677]PIE: New page: PIE session: MapMain (Apr 24, 2017, 3:06:14 PM)
+[2017.04.24-23.06.14:344][677]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-23.06.14:346][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001833s)
+[2017.04.24-23.06.14:350][677]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-23.06.14:350][677]LogPlayLevel: PIE: World Init took: (0.004317s)
+[2017.04.24-23.06.14:350][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.006426s)
+[2017.04.24-23.06.14:387][677]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-23.06.14:387][677]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-23.06.14:387][677]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-23.06.14:415][677]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-23.06.14:436][677]LogInit: FAudioDevice initialized.
+[2017.04.24-23.06.14:445][677]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-23.06.14:446][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-19.06.14
+[2017.04.24-23.06.14:447][677]LogWorld: Bringing up level for play took: 0.001443
+[2017.04.24-23.06.14:451][677]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain -0.128
+[2017.04.24-23.06.31:837][704]LogEditorViewport: Clicking Background
+[2017.04.24-23.06.32:537][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPPlayer" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset" SILENT=true
+[2017.04.24-23.06.32:701][763]LogSavePackage: Save=141.38ms
+[2017.04.24-23.06.32:701][763]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPPlayer0768A47B433B1758E22B80960B1876FF.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset'
+[2017.04.24-23.06.32:734][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset
+[2017.04.24-23.07.09:935][674]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-23.07.09:958][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-23.07.09:958][674]PIE: New page: PIE session: MapMain (Apr 24, 2017, 3:07:09 PM)
+[2017.04.24-23.07.09:958][674]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-23.07.09:960][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001453s)
+[2017.04.24-23.07.09:963][674]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-23.07.09:963][674]LogPlayLevel: PIE: World Init took: (0.002885s)
+[2017.04.24-23.07.09:963][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.004556s)
+[2017.04.24-23.07.09:992][674]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-23.07.09:992][674]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-23.07.09:992][674]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-23.07.10:012][674]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-23.07.10:029][674]LogInit: FAudioDevice initialized.
+[2017.04.24-23.07.10:036][674]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-23.07.10:037][674]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-19.07.10
+[2017.04.24-23.07.10:038][674]LogWorld: Bringing up level for play took: 0.001196
+[2017.04.24-23.07.10:041][674]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain -0.538
+[2017.04.24-23.09.35:593][631]BlueprintLog: New page: Compile BPProjectile
+[2017.04.24-23.09.37:414][758]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-23.09.37:440][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-23.09.37:440][758]PIE: New page: PIE session: MapMain (Apr 24, 2017, 3:09:37 PM)
+[2017.04.24-23.09.37:440][758]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-23.09.37:441][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001479s)
+[2017.04.24-23.09.37:444][758]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-23.09.37:444][758]LogPlayLevel: PIE: World Init took: (0.003067s)
+[2017.04.24-23.09.37:445][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.004768s)
+[2017.04.24-23.09.37:474][758]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-23.09.37:474][758]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-23.09.37:474][758]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-23.09.37:495][758]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-23.09.37:514][758]LogInit: FAudioDevice initialized.
+[2017.04.24-23.09.37:522][758]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-23.09.37:524][758]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-19.09.37
+[2017.04.24-23.09.37:524][758]LogWorld: Bringing up level for play took: 0.001184
+[2017.04.24-23.09.37:527][758]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain 0.948
+[2017.04.24-23.09.48:202][558]LogEditorTransaction: Undo Break Pin Link
+[2017.04.24-23.09.48:669][584]LogEditorTransaction: Undo Create Pin Link
+[2017.04.24-23.09.49:132][621]LogEditorTransaction: Undo Create Pin Link
+[2017.04.24-23.09.49:614][661]LogEditorTransaction: Undo Move Node
+[2017.04.24-23.09.50:061][698]LogEditorTransaction: Undo Create Pin Link
+[2017.04.24-23.09.50:553][740]LogEditorTransaction: Undo Create Pin Link
+[2017.04.24-23.09.51:018][791]LogEditorTransaction: Undo Add Node
+[2017.04.24-23.09.51:486][831]LogEditorTransaction: Undo Create Pin Link
+[2017.04.24-23.09.52:011][877]LogEditorTransaction: Undo Move Node
+[2017.04.24-23.09.52:842][958]LogEditorTransaction: Undo Add Node
+[2017.04.24-23.09.55:545][227]BlueprintLog: New page: Compile BPProjectile
+[2017.04.24-23.09.57:684][368]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-23.09.57:716][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-23.09.57:717][368]PIE: New page: PIE session: MapMain (Apr 24, 2017, 3:09:57 PM)
+[2017.04.24-23.09.57:717][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-23.09.57:719][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001904s)
+[2017.04.24-23.09.57:721][368]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-23.09.57:721][368]LogPlayLevel: PIE: World Init took: (0.002929s)
+[2017.04.24-23.09.57:722][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.005089s)
+[2017.04.24-23.09.57:754][368]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-23.09.57:754][368]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-23.09.57:754][368]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-23.09.57:779][368]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-23.09.57:794][368]LogInit: FAudioDevice initialized.
+[2017.04.24-23.09.57:802][368]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-23.09.57:803][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-19.09.57
+[2017.04.24-23.09.57:803][368]LogWorld: Bringing up level for play took: 0.001147
+[2017.04.24-23.09.57:806][368]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain -0.773
+[2017.04.24-23.10.25:136][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapMain" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.24-23.10.25:303][131]LogSavePackage: Save=99.11ms
+[2017.04.24-23.10.25:303][131]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/MapMain8CDCF7F34AF15BFCA720F38829C80486.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap'
+[2017.04.24-23.10.25:307][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap
+[2017.04.24-23.10.25:368][131]LogFileHelpers: Saving map 'MapMain' took 0.331
+[2017.04.24-23.10.25:424][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPPlayer" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset" SILENT=true
+[2017.04.24-23.10.25:537][131]LogSavePackage: Save=98.65ms
+[2017.04.24-23.10.25:537][131]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPPlayerE4B584B043EF493D0919B18A260FED23.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset'
+[2017.04.24-23.10.25:541][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset
+[2017.04.24-23.10.25:599][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPProjectile" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectile.uasset" SILENT=true
+[2017.04.24-23.10.25:654][131]LogSavePackage: Save=40.65ms
+[2017.04.24-23.10.25:654][131]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPProjectile303093E04D263560735B28821486D652.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectile.uasset'
+[2017.04.24-23.10.25:658][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectile.uasset
+[2017.04.24-23.11.01:682][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.04.24-23.11.01:683][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset.
+[2017.04.24-23.11.01:683][371]LoadErrors:Error: Error /Game/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel : Can't find file for asset. /Game/StarterContent/Textures/T_MacroVariation
+[2017.04.24-23.11.01:683][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_D'
+[2017.04.24-23.11.01:684][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_D' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset.
+[2017.04.24-23.11.01:684][371]LoadErrors:Error: Error /Game/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel : Can't find file for asset. /Game/StarterContent/Textures/T_Metal_Steel_D
+[2017.04.24-23.11.01:685][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_N'
+[2017.04.24-23.11.01:685][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_N' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset.
+[2017.04.24-23.11.01:685][371]LoadErrors:Error: Error /Game/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel : Can't find file for asset. /Game/StarterContent/Textures/T_Metal_Steel_N
+[2017.04.24-23.11.01:686][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.04.24-23.11.01:686][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset.
+[2017.04.24-23.11.01:686][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_D'
+[2017.04.24-23.11.01:686][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_D' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset.
+[2017.04.24-23.11.01:687][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_N'
+[2017.04.24-23.11.01:687][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_N' while loading ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset.
+[2017.04.24-23.11.01:695][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_D'
+[2017.04.24-23.11.01:695][371]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_D.T_Metal_Steel_D Referenced by MaterialExpressionTextureSample_78
+[2017.04.24-23.11.01:696][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_D' while loading NULL.
+[2017.04.24-23.11.01:696][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_N'
+[2017.04.24-23.11.01:696][371]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_N.T_Metal_Steel_N Referenced by MaterialExpressionTextureSample_79
+[2017.04.24-23.11.01:697][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_N' while loading NULL.
+[2017.04.24-23.11.01:697][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.04.24-23.11.01:697][371]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_81
+[2017.04.24-23.11.01:697][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.04.24-23.11.01:697][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.04.24-23.11.01:698][371]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_82
+[2017.04.24-23.11.01:698][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.04.24-23.11.01:699][371]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.04.24-23.11.01:699][371]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_83
+[2017.04.24-23.11.01:699][371]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.04.24-23.11.01:701][371]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.11.01:702][371]LogMaterial:Warning: Failed to compile Material /Game/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.11.01:702][371]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.12.04:543][754]BlueprintLog: New page: Compile BPPlayer
+[2017.04.24-23.12.08:373][ 15]MapCheck: New page: Map Check
+[2017.04.24-23.12.08:463][ 15]LightingResults: New page: Lighting Build - Apr 24, 2017, 3:12:08 PM
+[2017.04.24-23.12.09:512][ 15]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.24-23.12.09:904][ 15]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.24-23.12.10:369][ 15]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.24-23.12.14:377][ 15]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.04.24-23.12.14:749][ 15]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.04.24-23.12.21:752][ 15]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.04.24-23.12.21:752][ 15]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.04.24-23.12.27:730][ 15]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.24-23.12.27:730][ 15]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8224
+[2017.04.24-23.12.35:070][ 15]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.24-23.12.35:070][ 15]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.24-23.12.35:070][ 15]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.24-23.12.35:070][ 15]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.24-23.12.35:070][ 15]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.24-23.12.35:070][ 15]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.24-23.12.37:253][ 15]LogEditorBuildUtils: Build time 0:28
+[2017.04.24-23.12.44:206][164]Job is a success!
+[2017.04.24-23.12.45:525][165]Lightmass on DESKTOP-RAF421J: 1.34 sec total, 467 ms importing, 79 ms setup, 28 ms photons, 363 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 727 ms total, 0 ms processing.
+[2017.04.24-23.12.45:525][165]LogStaticLightingSystem: Illumination: 37.0 sec (0 ms encoding lightmaps, 18 ms encoding shadowmaps)
+[2017.04.24-23.12.45:525][165]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.04.24-23.12.45:525][165]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.04.24-23.12.46:116][165]DumpUnbuiltLightIteractions
+[2017.04.24-23.12.46:116][165]Lights with unbuilt interactions: 0
+[2017.04.24-23.12.46:116][165]
+[2017.04.24-23.12.46:116][165]Primitives with unbuilt interactions: 0
+[2017.04.24-23.12.46:133][166]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.24-23.12.46:133][166]MapCheck: New page: MapMain - Apr 24, 2017, 3:12:46 PM
+[2017.04.24-23.12.46:338][166]MapCheck:Warning: Warning BPGameController_226 Static mesh actor has NULL StaticMesh property 
+[2017.04.24-23.12.46:338][166]MapCheck:Warning: Warning BPGameController_226 Static mesh actor has NULL StaticMesh property 
+[2017.04.24-23.12.46:443][166]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 309.96ms to complete.
+[2017.04.24-23.13.00:630][384]MapCheck: New page: Map Check
+[2017.04.24-23.13.00:641][384]Cmd: MAP REBUILD ALLVISIBLE
+[2017.04.24-23.13.00:677][384]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.04.24-23.13.00:991][384]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.04.24-23.13.01:016][384]LogTemp:Display: Added material ShaderMap 0x000001A39C738100 with Material 0x000001A3E628CD00 to ShaderMapsBeingCompiled
+[2017.04.24-23.13.01:021][384]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000001A39C738100
+[2017.04.24-23.13.01:047][384]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.04.24-23.13.01:049][384]LogTemp:Display: Added material ShaderMap 0x000001A424247900 with Material 0x000001A39B90E800 to ShaderMapsBeingCompiled
+[2017.04.24-23.13.01:052][384]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x000001A424247900
+[2017.04.24-23.13.06:748][384]LogTemp:Display: Finished compile of shader map 0x000001A39C738100
+[2017.04.24-23.13.06:748][384]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000001A39C738100, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.04.24-23.13.06:751][384]LogTemp:Display: Marking material as finished 0x000001A3E628CD00
+[2017.04.24-23.13.45:695][384]LogTemp:Display: Finished compile of shader map 0x000001A424247900
+[2017.04.24-23.13.45:695][384]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x000001A424247900, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.04.24-23.13.45:695][384]LogTemp:Display: Marking material as finished 0x000001A39B90E800
+[2017.04.24-23.13.45:699][384]TextureStreamingBuild:Display: Compiling optional shaders took 44.736 seconds.
+[2017.04.24-23.13.45:755][384]LogLevel:Display: Export Material TexCoord Scales took 0.056 seconds.
+[2017.04.24-23.13.45:760][384]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.04.24-23.13.45:805][384]LightingResults: New page: Lighting Build - Apr 24, 2017, 3:13:45 PM
+[2017.04.24-23.13.45:822][384]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.24-23.13.45:862][384]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.24-23.13.45:862][384]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.24-23.13.45:865][384]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.24-23.13.45:865][384]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8224
+[2017.04.24-23.13.50:669][384]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.24-23.13.50:670][384]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.24-23.13.50:670][384]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.24-23.13.50:670][384]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.24-23.13.50:670][384]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.24-23.13.50:670][384]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.24-23.13.50:827][384]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.04.24-23.13.50:827][384]MapCheck: New page: MapMain - Apr 24, 2017, 3:13:50 PM
+[2017.04.24-23.13.50:828][384]MapCheck:Warning: Warning BPGameController_226 Static mesh actor has NULL StaticMesh property 
+[2017.04.24-23.13.50:828][384]MapCheck:Warning: Warning BPGameController_226 Static mesh actor has NULL StaticMesh property 
+[2017.04.24-23.13.50:914][384]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 87.117ms to complete.
+[2017.04.24-23.13.50:914][384]LogEditorBuildUtils: Build time 0:50
+[2017.04.24-23.13.53:287][419]Job is a success!
+[2017.04.24-23.13.53:459][420]Lightmass on DESKTOP-RAF421J: 512 ms total, 210 ms importing, 38 ms setup, 30 ms photons, 159 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 318 ms total, 0 ms processing.
+[2017.04.24-23.13.53:459][420]LogStaticLightingSystem: Illumination: 7.62 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.04.24-23.13.53:459][420]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.04.24-23.13.53:459][420]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.04.24-23.13.53:671][420]DumpUnbuiltLightIteractions
+[2017.04.24-23.13.53:671][420]Lights with unbuilt interactions: 0
+[2017.04.24-23.13.53:671][420]
+[2017.04.24-23.13.53:671][420]Primitives with unbuilt interactions: 0
+[2017.04.24-23.13.53:699][421]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.24-23.13.53:699][421]MapCheck: New page: MapMain - Apr 24, 2017, 3:13:53 PM
+[2017.04.24-23.13.53:700][421]MapCheck:Warning: Warning BPGameController_226 Static mesh actor has NULL StaticMesh property 
+[2017.04.24-23.13.53:700][421]MapCheck:Warning: Warning BPGameController_226 Static mesh actor has NULL StaticMesh property 
+[2017.04.24-23.13.53:813][421]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 114.118ms to complete.
+[2017.04.24-23.14.01:463][855]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-23.14.01:489][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-23.14.01:489][855]PIE: New page: PIE session: MapMain (Apr 24, 2017, 3:14:01 PM)
+[2017.04.24-23.14.01:489][855]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapMain
+[2017.04.24-23.14.01:491][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002203s)
+[2017.04.24-23.14.01:494][855]LogAIModule: Creating AISystem for world MapMain
+[2017.04.24-23.14.01:494][855]LogPlayLevel: PIE: World Init took: (0.002968s)
+[2017.04.24-23.14.01:495][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapMain.MapMain to /Game/Maps/UEDPIE_0_MapMain.MapMain (0.005428s)
+[2017.04.24-23.14.01:526][855]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.04.24-23.14.01:526][855]LogGarbage:Warning:       PIE object: World /Game/Maps/UEDPIE_0_MapMain.MapMain
+[2017.04.24-23.14.01:526][855]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.04.24-23.14.01:546][855]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-23.14.01:564][855]LogInit: FAudioDevice initialized.
+[2017.04.24-23.14.01:571][855]LogLoad: Game class is 'GameModeBase'
+[2017.04.24-23.14.01:573][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapMain.MapMain up for play (max tick rate 0) at 2017.04.24-19.14.01
+[2017.04.24-23.14.01:573][855]LogWorld: Bringing up level for play took: 0.001237
+[2017.04.24-23.14.01:576][855]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MapMain 0.998
+[2017.04.24-23.14.21:221][870]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.14.21:222][870]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.14.21:222][870]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.14.21:571][870]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.14.21:572][870]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.14.21:572][870]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.14.21:583][870]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.24-23.14.21:584][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2017.04.24-23.14.21:586][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2017.04.24-23.14.21:588][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_81, compiling. 
+[2017.04.24-23.14.21:590][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_82, compiling. 
+[2017.04.24-23.14.21:591][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_83, compiling. 
+[2017.04.24-23.14.21:593][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_27, compiling. 
+[2017.04.24-23.14.21:594][870]LogTemp:Display: Added material ShaderMap 0x000001A41A72C100 with Material 0x000001A3D1D2FD00 to ShaderMapsBeingCompiled
+[2017.04.24-23.14.21:601][870]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_27, GameThreadShaderMap 0x000001A41A72C100
+[2017.04.24-23.14.25:880][957]LogMaterialEditor: Saving and Compiling material M_Metal_Steel
+[2017.04.24-23.14.26:020][957]LogSavePackage: Save=34.17ms
+[2017.04.24-23.14.26:021][957]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/M_Metal_SteelB0EDBA584E811831ED7F1080AE655BE6.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset'
+[2017.04.24-23.14.26:024][957]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset
+[2017.04.24-23.14.42:074][355]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.14.42:075][355]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.14.42:075][355]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.14.42:075][355]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.24-23.14.43:640][396]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.14.43:641][396]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.14.43:641][396]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.14.43:641][396]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.24-23.14.45:049][434]LogMaterialEditor: Applying material M_Metal_Steel
+[2017.04.24-23.14.55:713][434]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.14.55:714][434]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.14.55:714][434]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.14.55:714][434]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.24-23.14.55:762][434]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.14.55:763][434]LogMaterial:Warning: Failed to compile Material /Game/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.14.55:763][434]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.14.55:771][434]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.04.24-23.14.55:771][434]LogMaterial:Warning: Failed to compile Material /Game/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.24-23.14.55:771][434]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.24-23.14.55:773][434]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.24-23.14.55:823][434]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Steel, compiling. 
+[2017.04.24-23.14.55:847][434]TextureStreamingBuild:Display: Compiling optional shaders took 0.029 seconds.
+[2017.04.24-23.14.55:899][434]LogTemp:Display: Finished compile of shader map 0x000001A41A72C100
+[2017.04.24-23.14.55:899][434]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_27 complete, GameThreadShaderMap 0x000001A41A72C100, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_27 as finished
+[2017.04.24-23.14.55:899][434]LogTemp:Display: Marking material as finished 0x000001A3D1D2FD00
+[2017.04.24-23.14.58:948][535]LogMaterialEditor: Saving and Compiling material M_Metal_Steel
+[2017.04.24-23.14.59:038][535]LogSavePackage: Save=25.15ms
+[2017.04.24-23.14.59:038][535]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/M_Metal_Steel9BAB853B4BDBF3C62019198E288F586B.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset'
+[2017.04.24-23.14.59:043][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/ExampleContent/Materials/StarterContent/Materials/M_Metal_Steel.uasset
+[2017.04.24-23.15.08:924][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapMain" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.24-23.15.09:010][938]LogSavePackage: Save=30.33ms
+[2017.04.24-23.15.09:010][938]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/MapMainE74B76314A7E282F3A2C59B175DC085B.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap'
+[2017.04.24-23.15.09:014][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap
+[2017.04.24-23.15.09:054][938]LogFileHelpers: Saving map 'MapMain' took 0.219
+[2017.04.24-23.15.09:081][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapMain_BuiltData" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain_BuiltData.uasset" SILENT=true
+[2017.04.24-23.15.09:088][938]LogSavePackage: Save=3.55ms
+[2017.04.24-23.15.09:088][938]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/MapMain_BuiltData3848B0CF48ECBAA7C57623B2B182F97A.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain_BuiltData.uasset'
+[2017.04.24-23.15.09:093][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain_BuiltData.uasset
+[2017.04.24-23.15.09:154][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPPlayer" FILE="../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset" SILENT=true
+[2017.04.24-23.15.09:270][938]LogSavePackage: Save=100.16ms
+[2017.04.24-23.15.09:270][938]LogSavePackage: Moving '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/BPPlayer6B84C72E4A18B79DB2316290C268A535.tmp' to '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset'
+[2017.04.24-23.15.09:274][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset
+[2017.04.24-23.15.13:470][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.24-23.15.13:522][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.24-23.15.13:719][268]Cmd: QUIT_EDITOR
+[2017.04.24-23.15.13:919][268]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.24-23.15.13:964][268]LogExit: Preparing to exit.
+[2017.04.24-23.15.14:359][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/' was aborted.
+[2017.04.24-23.15.14:434][268]LogExit: Editor shut down
+[2017.04.24-23.15.14:434][268]LogExit: Transaction tracking system shut down
+[2017.04.24-23.15.14:669][268]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.24-23.15.14:669][268]LogExit: Object subsystem successfully closed.
+[2017.04.24-23.15.14:684][268]LogD3D11RHI: Shutdown
+[2017.04.24-23.15.14:684][268]LogD3D11RHI: CleanupD3DDevice
+[2017.04.24-23.15.14:811][268]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module MaterialEditor (510)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (508)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (504)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.24-23.15.14:851][268]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.24-23.15.14:851][268]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.24-23.15.14:853][268]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.24-23.15.14:853][268]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.24-23.15.14:853][268]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.24-23.15.14:853][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Collections/' was aborted.
+[2017.04.24-23.15.14:854][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/Developers/Alex/Collections/' was aborted.
+[2017.04.24-23.15.14:854][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Saved/Collections/' was aborted.
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.24-23.15.14:854][268]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.24-23.15.14:855][268]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.24-23.15.15:011][268]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.24-23.15.15:012][268]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.24-23.15.15:054][268]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.24-23.15.15:054][268]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.24-23.15.15:054][268]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.24-23.15.15:054][268]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.24-23.15.15:054][268]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.24-23.15.15:054][268]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.24-23.15.15:055][268]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.24-23.15.15:055][268]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.24-23.15.15:055][268]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.24-23.15.15:069][268]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.24-23.15.15:069][268]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.24-23.15.15:070][268]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.24-23.15.15:106][268]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.24-23.15.15:106][268]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.24-23.15.15:106][268]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.24-23.15.15:106][268]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.24-23.15.15:107][268]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.24-23.15.15:108][268]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.24-23.15.15:109][268]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.24-23.15.15:109][268]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.24-23.15.15:109][268]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.24-23.15.15:110][268]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.24-23.15.15:111][268]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.24-23.15.15:111][268]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.24-23.15.15:111][268]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.24-23.15.15:111][268]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.24-23.15.15:212][268]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.24-23.15.15:312][268]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.24-23.15.15:319][268]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.24-23.15.15:319][268]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.24-23.15.15:319][268]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.24-23.15.15:319][268]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.24-23.15.15:319][268]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.24-23.15.15:319][268]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.24-23.15.15:420][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.24-23.15.15:420][268]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Alex/Documents/RusskyIstrebetel2/IskyRestrubel/Content/' was aborted.
+[2017.04.24-23.15.15:420][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.24-23.15.15:420][268]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.24-23.15.15:422][268]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.24-23.15.15:441][268]LogDerivedDataCache: Shutdown
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.24-23.15.15:441][268]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.24-23.15.15:442][268]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.24-23.15.15:442][268]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.24-23.15.15:442][268]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.24-23.15.15:442][268]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBEF32499-44CF-DB28-2BA9-9DA3A6361738%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=ef3ac173438830a98b1e4ab613d2936a%7Ce4b27134f6bf412e9a100d05c6700cdb%7C2032c4c8-318e-422e-9ad2-bdd6d719e765&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.24-23.15.15:454][268]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.24-23.15.15:456][268]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.24-23.15.15:456][268]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.24-23.15.15:457][268]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.24-23.15.15:457][268]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.24-23.15.15:457][268]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.24-23.15.15:464][268]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.24-23.15.15:468][268]LogExit: Exiting.
+[2017.04.24-23.15.15:486][268]Log file closed, 04/24/17 19:15:15
