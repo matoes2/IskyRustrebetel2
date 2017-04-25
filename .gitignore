@@ -48,6 +48,7 @@
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
+
 # Binary Files
 Binaries/*
 
@@ -73,3 +74,10 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+IskyRestrubel/Saved/*
+
+IskyRestrubel/Intermediate/CachedAssetRegistry.bin
+IskyRestrubel/Intermediate/Config/CoalescedSourceConfigs/EditorSettings
+*.log
