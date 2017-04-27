@@ -76,8 +76,9 @@ Intermediate/*
 DerivedDataCache/*
 
 
+IskyRestrubel/Saved/Config/Windows/Editor.ini
 IskyRestrubel/Intermediate/CachedAssetRegistry.bin
 IskyRestrubel/Saved/AutoScreenshot.png
 IskyRestrubel/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-IskyRestrubel/Saved/Logs/IskyRestrubel.log
+IskyRestrubel/Saved/Logs/*
 *.log
