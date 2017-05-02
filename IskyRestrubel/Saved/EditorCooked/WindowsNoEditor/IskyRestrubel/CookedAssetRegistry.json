@@ -144,25 +144,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/BasicShapes/BasicShapeMaterial",
-			"CookedPackageName": "/Engine/BasicShapes/BasicShapeMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "965779506cdcec6db5d59ea4c7ba07b9",
-			"FullPackageHash": "419ce8ef0dbdcbd2c03d6e2deb827aee",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/BasicShapes/Cube",
 			"CookedPackageName": "/Engine/BasicShapes/Cube",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -766,24 +747,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/EditorMaterials/AntialiasedGridFloor",
-			"CookedPackageName": "/Engine/EditorMaterials/AntialiasedGridFloor",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/AntialiasedGridFloor.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "bee3d985d6d970f7932f4be86bc98847",
-			"FullPackageHash": "0502fbe0a19baea13809f0f07bc0c268",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1",
 			"CookedPackageName": "/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -943,24 +906,6 @@
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMaterials/GridMaterial",
-			"CookedPackageName": "/Engine/EditorMaterials/GridMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/GridMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "31cb9e2dbf5749f626454486260fdb2a",
-			"FullPackageHash": "c4a720b5c12a75bd158c75fa21751d52",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -1310,25 +1255,6 @@
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMaterials/PersonaFloorMat",
-			"CookedPackageName": "/Engine/EditorMaterials/PersonaFloorMat",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/PersonaFloorMat.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "4e5a247d33ff3f6c317f0b44bb563876",
-			"FullPackageHash": "7853b3c54350ae90d926c8534bfda0a0",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -1714,136 +1640,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ChromeBall",
-			"CookedPackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ChromeBall",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "1837ec2fd1fe85e21e742b9bcc747522",
-			"FullPackageHash": "72c86eb1b4fa79594a13ce9d1e8a279a",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ClearCoat",
-			"CookedPackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ClearCoat",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "c4134045129ea819f4a9a403601d868f",
-			"FullPackageHash": "4de6ea40cb4be0edc38b59b275b1a11c",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ClearCoatBlack",
-			"CookedPackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ClearCoatBlack",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "2236ce96f8536f3c1a1a5b05f9fdc8aa",
-			"FullPackageHash": "b851f5e0eca6e244c25b7f1d9c3d0cd0",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ColorGrid",
-			"CookedPackageName": "/Engine/EditorMeshes/ColorCalibrator/M_ColorGrid",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "13ca22fe803657855b26fa90e899dcc4",
-			"FullPackageHash": "0d647ef5bfb0d610aa9de411faa4b101",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMeshes/ColorCalibrator/M_GreyBall",
-			"CookedPackageName": "/Engine/EditorMeshes/ColorCalibrator/M_GreyBall",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "45d5a70528ca224b74b42e8006ac0694",
-			"FullPackageHash": "ce168600c71434d90459af0f5c753ab9",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMeshes/ColorCalibrator/SM_ColorCalibrator",
-			"CookedPackageName": "/Engine/EditorMeshes/ColorCalibrator/SM_ColorCalibrator",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "feac9d773324ea8cc43e38e8169a4eee",
-			"FullPackageHash": "c595d0f1a1847ed75082526cfa4fa83f",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMeshes/ColorCalibrator/T_ColorGrid",
-			"CookedPackageName": "/Engine/EditorMeshes/ColorCalibrator/T_ColorGrid",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "cf42fc5ee3d809bd7b4445a0401a918b",
-			"FullPackageHash": "ea745893003e4a2455ce6204164e021e",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/EditorMeshes/EditorCube",
 			"CookedPackageName": "/Engine/EditorMeshes/EditorCube",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -1947,23 +1743,6 @@
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorMeshes/PhAT_FloorBox",
-			"CookedPackageName": "/Engine/EditorMeshes/PhAT_FloorBox",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorMeshes/PhAT_FloorBox.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "c0e4dac55bf406aad92ebf0868132859",
-			"FullPackageHash": "f25932f059ee0bf3945ab5de71859756",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -2573,40 +2352,6 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "a41aee37a7e573760ad64948b59ce685",
 			"FullPackageHash": "273b78f50ac7e6dc5017b063e9634ff6",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorResources/TilePatine_D",
-			"CookedPackageName": "/Engine/EditorResources/TilePatine_D",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/TilePatine_D.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "9f348a023841b41cd172801035e5f043",
-			"FullPackageHash": "276a244d5a7bb8ab460cab6faf478093",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorResources/TilePatine_N",
-			"CookedPackageName": "/Engine/EditorResources/TilePatine_N",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/TilePatine_N.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "5a76a0a39fc487ae052d3ad459cf208a",
-			"FullPackageHash": "f17a75cb457370cef4aae61576b46851",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -4165,24 +3910,6 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "5c7dbe30f533cc3ef5f0daad7b5c50b4",
 			"FullPackageHash": "2719e340877be5edf09e8a6f860aa4fc",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals",
-			"CookedPackageName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "cab0b29ad33b2d2d6649da7692b9cad2",
-			"FullPackageHash": "675f2ed2452cbf17f8c6d5c0d2415e64",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -6011,15 +5738,34 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Art/Materials/Gray",
-			"CookedPackageName": "/Game/Art/Materials/Gray",
+			"SourcePackageName": "/Game/Art/Materials/M_Black",
+			"CookedPackageName": "/Game/Art/Materials/M_Black",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Materials/Gray.uasset",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Materials/M_Black.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "c3dd5f314ad064f43e5187387d2bf8b4",
-			"FullPackageHash": "4a688132e2a6183b15764b428c63432b",
+			"DependentPackageHash": "c39f2b285dd8ac993be711ffaca4928d",
+			"FullPackageHash": "09142b578b086d1c7454f3530d261e00",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Art/Materials/M_Gray",
+			"CookedPackageName": "/Game/Art/Materials/M_Gray",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Materials/M_Gray.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "35f15e03b4727c23d5d62c6cb0945c47",
+			"FullPackageHash": "210e6dd46147be9645dad44f1c498fa1",
 			"DependencyData": [
 				"*** SHADERSOURCE ***",
 				"/Script/CoreUObject",
@@ -6049,6 +5795,99 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Game/Art/Materials/M_USSR",
+			"CookedPackageName": "/Game/Art/Materials/M_USSR",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Materials/M_USSR.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "7838c6459559bce6fe25d3d913c5ce5c",
+			"FullPackageHash": "da802038e0b9d176d30975a7482281d1",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Art/Materials/M_USSRBlue",
+			"CookedPackageName": "/Game/Art/Materials/M_USSRBlue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Materials/M_USSRBlue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "9c6070341936e06ef0246fa0e831438a",
+			"FullPackageHash": "2a97274d3148ab2c09ab67572548d853",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Art/Materials/M_USSRRed",
+			"CookedPackageName": "/Game/Art/Materials/M_USSRRed",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Materials/M_USSRRed.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "05fa97c5712e66cca24f67c228131f9a",
+			"FullPackageHash": "eb18fbe566b2fd94c13f5cac27300641",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Art/Materials/USSR_Laser",
+			"CookedPackageName": "/Game/Art/Materials/USSR_Laser",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Materials/USSR_Laser.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "4a2e7802f189e9c9aa1f013600e68564",
+			"FullPackageHash": "10c9badb0f6598e4c99e307f8250a395",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Art/Textures/ussr_simple_background_1920x10_2560x1600_knowledgehi_com",
+			"CookedPackageName": "/Game/Art/Textures/ussr_simple_background_1920x10_2560x1600_knowledgehi_com",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Art/Textures/ussr_simple_background_1920x10_2560x1600_knowledgehi_com.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "589613af3d0ddb3121183769beaafa24",
+			"FullPackageHash": "059401a0000ad1566da9c720fc0c4e09",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Game/Blueprints/BPEnemy",
 			"CookedPackageName": "/Game/Blueprints/BPEnemy",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6056,8 +5895,8 @@
 			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPEnemy.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "c4b5db9aec66eb2ddb9547b4796e9277",
-			"FullPackageHash": "8f7ec4d59b252596cec7dec0baf84f3c",
+			"DependentPackageHash": "462795f3aba617653f851df7a29cac36",
+			"FullPackageHash": "7b5165284af76a70bc1441a3bb67d5c5",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6076,8 +5915,8 @@
 			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPGameController.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "cf13e9197366e28355217fcfef715cdf",
-			"FullPackageHash": "bf179194b80a2d39cb0b792fddd40297",
+			"DependentPackageHash": "703d6b1cbcf8857b98ae64fe6483ce8c",
+			"FullPackageHash": "48d0086f5b7b75cf168e64820f1460e2",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6096,8 +5935,8 @@
 			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPPlayer.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "aa991558687330338729227ad1559b6d",
-			"FullPackageHash": "278d5177bed3af9672ea2027dce2ef14",
+			"DependentPackageHash": "a15d5004525ff4e2a84b40c36ff98483",
+			"FullPackageHash": "5e9c9539f2eed18c8ee24000d6041f46",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6150,15 +5989,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Blueprints/BPProjectileLaser",
-			"CookedPackageName": "/Game/Blueprints/BPProjectileLaser",
+			"SourcePackageName": "/Game/Blueprints/BPProjectileLaserUSSR",
+			"CookedPackageName": "/Game/Blueprints/BPProjectileLaserUSSR",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaser.uasset",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/BPProjectileLaserUSSR.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "2ba7f85931cb327d83a8853d8d9aed7c",
-			"FullPackageHash": "42b32a4925e1e62c6642e78f3a40a374",
+			"DependentPackageHash": "a97aa98e46cf33e131b4dae80e1a1bfe",
+			"FullPackageHash": "696000e720bd996f9e560be81318ffa8",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6179,6 +6018,26 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "52dabbbce2b1ac440826f0f0b250ec79",
 			"FullPackageHash": "60fb684ee3485dbd1866ceb56e601893",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Blueprints/ShooterSave",
+			"CookedPackageName": "/Game/Blueprints/ShooterSave",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Blueprints/ShooterSave.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "4df5f65b5c08d71feb6f8c211c01c5df",
+			"FullPackageHash": "70f53aeebf77414c9d6fd54b0bc8574a",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6234,8 +6093,8 @@
 			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain.umap",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "6b15b3dd5ff5c923340181885165598a",
-			"FullPackageHash": "d436d86555c7e04b9020e2a014866780",
+			"DependentPackageHash": "97392a81e626081f2c16d737028e5966",
+			"FullPackageHash": "e40d257233ffd8bca2e2d259cad30a2a",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -6253,8 +6112,8 @@
 			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Maps/MapMain_BuiltData.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "3317b568039b6ab6ad8e9b1d12203b07",
-			"FullPackageHash": "d2e86abd81171f08b1d1a7efd88a3e9a",
+			"DependentPackageHash": "d01efed44db286a9a8ab5578177f633c",
+			"FullPackageHash": "fc96b117a96c5f6ccc68c17100c4ce25",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -6263,16 +6122,93 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Models/Jet",
-			"CookedPackageName": "/Game/Models/Jet",
+			"SourcePackageName": "/Game/Models/aam",
+			"CookedPackageName": "/Game/Models/aam",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/Jet.uasset",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/aam.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "4980dc94bd743c0077cc1bdccb16a1e8",
-			"FullPackageHash": "21703042698ac0306c073dc743202a2d",
+			"DependentPackageHash": "e737206cccee8669aca009827bcb9d26",
+			"FullPackageHash": "87375a4502947a90ce12a4a35c52b8bd",
 			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Models/cockpit",
+			"CookedPackageName": "/Game/Models/cockpit",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/cockpit.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "7cf6fefdb34634636bc0a280b330d6f1",
+			"FullPackageHash": "f82d4a1a04f8125284bb806c1efb82c7",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Models/inst",
+			"CookedPackageName": "/Game/Models/inst",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/inst.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "7402a8b7ce89fa7a9aac6cf743b8adcd",
+			"FullPackageHash": "84850a65cd0ba0153ff2188df4856efa",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Models/optic",
+			"CookedPackageName": "/Game/Models/optic",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/optic.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a5eee3d57f45c0098f43c4fdadac1d7c",
+			"FullPackageHash": "63abb8657cd63e1115a9e9705a7eae99",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Models/pilot",
+			"CookedPackageName": "/Game/Models/pilot",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/pilot.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a69afc6bf6d1487ca8e8e8bdba86a727",
+			"FullPackageHash": "88e4a80894270a8ddb49b6f9ebd06c24",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
@@ -6288,12 +6224,29 @@
 			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/PlayerJet.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "66338d5b53cb4376eabaf7c177e223fb",
-			"FullPackageHash": "0ee9ece64045d597c3e7d9f719bbf16b",
+			"DependentPackageHash": "074a6dd53d732ab4fc2f74aeba4dfecb",
+			"FullPackageHash": "75ee9b2a67502c5299d07e5d5cce5ea5",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Models/ru_fjet_t-50_pak_fa_n_4aaabf6d0cdef78d_0b000000010000000000000000000000",
+			"CookedPackageName": "/Game/Models/ru_fjet_t-50_pak_fa_n_4aaabf6d0cdef78d_0b000000010000000000000000000000",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/ru_fjet_t-50_pak_fa_n_4aaabf6d0cdef78d_0b000000010000000000000000000000.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "cfcf7ad2a907d58e2d8b9ca2747c8dba",
+			"FullPackageHash": "8b83d2b050b1dc2e03162d39cce8f296",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -6308,6 +6261,24 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "89ce2b67b328157d0c04724df4ebee6b",
 			"FullPackageHash": "25f19a03c6dd7b3b67d43b12a4d5717f",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Models/T-50",
+			"CookedPackageName": "/Game/Models/T-50",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/Models/T-50.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "012bfc2d640a4295574e746cd1fa4a8f",
+			"FullPackageHash": "f3071a3d86b8ae5849a24c320ddd19c0",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -6355,34 +6326,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/StarterContent/Materials/M_Metal_Gold",
-			"CookedPackageName": "/Game/StarterContent/Materials/M_Metal_Gold",
+			"SourcePackageName": "/Game/StarterContent/Materials/M_Metal_Steel",
+			"CookedPackageName": "/Game/StarterContent/Materials/M_Metal_Steel",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Materials/M_Metal_Gold.uasset",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Materials/M_Metal_Steel.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "e020cc52d66bc4fae8150b1ad81d3223",
-			"FullPackageHash": "9e8b9087b0259b07792f9c6ecdea7cab",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Materials/M_Tech_Hex_Tile",
-			"CookedPackageName": "/Game/StarterContent/Materials/M_Tech_Hex_Tile",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a9dc1488846f3f483b7b6aa7de38d02f",
-			"FullPackageHash": "012495203155059bd65adab8105b9b57",
+			"DependentPackageHash": "011a33ad10ae341533c1c99a2ed07b75",
+			"FullPackageHash": "efb9274a528adde95c9813a4bf323ffa",
 			"DependencyData": [
 				"*** SHADERSOURCE ***",
 				"/Script/CoreUObject",
@@ -6427,23 +6379,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Metal_Gold_D",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Metal_Gold_D",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Textures/T_Metal_Gold_D.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7e93b782cfe1500939610f5dad741fa8",
-			"FullPackageHash": "9fdf14b0f8722245e8593489bc9f0363",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/StarterContent/Textures/T_Metal_Gold_N",
 			"CookedPackageName": "/Game/StarterContent/Textures/T_Metal_Gold_N",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6461,15 +6396,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Tech_Hex_Tile_M",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Tech_Hex_Tile_M",
+			"SourcePackageName": "/Game/StarterContent/Textures/T_Metal_Steel_D",
+			"CookedPackageName": "/Game/StarterContent/Textures/T_Metal_Steel_D",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Textures/T_Metal_Steel_D.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "1466164f56ba3fbed4d3f4ada53ccc24",
-			"FullPackageHash": "48ebe8b7c22c03adab74cac5a75ccd8c",
+			"DependentPackageHash": "a76c4985478291aa8f050a01d8857ce7",
+			"FullPackageHash": "471f56f78a957bc80cbe6f17b34dfa03",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -6478,144 +6413,18 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Tech_Hex_Tile_N",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Tech_Hex_Tile_N",
+			"SourcePackageName": "/Game/StarterContent/Textures/T_Metal_Steel_N",
+			"CookedPackageName": "/Game/StarterContent/Textures/T_Metal_Steel_N",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset",
+			"ResolvedRelativePath": "H:/RusskyIstrebetel2/IskyRestrubel/Content/StarterContent/Textures/T_Metal_Steel_N.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "199b3d69e2f179711b818c7668c0f7d6",
-			"FullPackageHash": "c832d1c09545510cc925539b83cb7c06",
+			"DependentPackageHash": "5af95490b3584fc17d46b46a669e7883",
+			"FullPackageHash": "181f81f518cc64b67b6887173e495df3",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
-			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "5118c2dbc9f0202e6075e9138e7776af",
-			"FullPackageHash": "6cce638b46ac228277e18622b5dc1c89",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "da677a155d4c4eb4b2882c416717fc0c",
-			"FullPackageHash": "d5c3cc74d42e5a57b1d215be2c7eba20",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "80ee177443711b70171105900ae58fb2",
-			"FullPackageHash": "0c67253d801b2958a936356a0e2def8f",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "ea6433be54f45086013f133caac5aa1e",
-			"FullPackageHash": "267eab877c4f877a557f4acb834154dd",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "46b87a79dff4595d25573f38b51b7783",
-			"FullPackageHash": "17e0dfc79bd1d8d4fd16ffed4cf870de",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "f61cf648393a2397f4b0a30e2271d3a4",
-			"FullPackageHash": "fbd232876d2c3288ae574161c78cc5a3",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -6642,15 +6451,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/ParticleSystemEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/ParticleSystemEditorTutorial",
+			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
+			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorAttract",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "6e38b54b75c0fa3a1f6272edd13beee4",
-			"FullPackageHash": "ccb822046acc49a557d4688d18f18dae",
+			"DependentPackageHash": "5118c2dbc9f0202e6075e9138e7776af",
+			"FullPackageHash": "6cce638b46ac228277e18622b5dc1c89",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6663,15 +6472,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Intro_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Intro_Tutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "fc510b558bc25b32e7020fe75fa2f39a",
-			"FullPackageHash": "51335c85dcf6a454bc0cbebf4226f331",
+			"DependentPackageHash": "5cbcd0a20cb360cb23d8c5d5aca452f2",
+			"FullPackageHash": "4cf4bb66ff14ae9900fb889d540f8f28",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6770,27 +6579,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Intro_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Intro_Tutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "5cbcd0a20cb360cb23d8c5d5aca452f2",
-			"FullPackageHash": "4cf4bb66ff14ae9900fb889d540f8f28",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
 			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6833,6 +6621,27 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "fc510b558bc25b32e7020fe75fa2f39a",
+			"FullPackageHash": "51335c85dcf6a454bc0cbebf4226f331",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
 			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6854,15 +6663,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "0192e2bfa4f40ecf7be6da1588a1ae15",
-			"FullPackageHash": "a02d2d505742df139c0086138b1982a3",
+			"DependentPackageHash": "f15951b0851da1b3635adebbe46daa88",
+			"FullPackageHash": "53aeb738d00dc0efe180e887577023d7",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6896,15 +6705,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorOverview",
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/ParticleSystemEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/ParticleSystemEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "1689d308a77157d734a422e2ec801c8c",
-			"FullPackageHash": "096771230279b10d9c4d4e7b17d665a8",
+			"DependentPackageHash": "6e38b54b75c0fa3a1f6272edd13beee4",
+			"FullPackageHash": "ccb822046acc49a557d4688d18f18dae",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -6938,15 +6747,141 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough",
+			"SourcePackageName": "/Engine/Tutorial/Basics/LevelEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/Basics/LevelEditorOverview",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "f15951b0851da1b3635adebbe46daa88",
-			"FullPackageHash": "53aeb738d00dc0efe180e887577023d7",
+			"DependentPackageHash": "1689d308a77157d734a422e2ec801c8c",
+			"FullPackageHash": "096771230279b10d9c4d4e7b17d665a8",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "ea6433be54f45086013f133caac5aa1e",
+			"FullPackageHash": "267eab877c4f877a557f4acb834154dd",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "0192e2bfa4f40ecf7be6da1588a1ae15",
+			"FullPackageHash": "a02d2d505742df139c0086138b1982a3",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "f61cf648393a2397f4b0a30e2271d3a4",
+			"FullPackageHash": "fbd232876d2c3288ae574161c78cc5a3",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "da677a155d4c4eb4b2882c416717fc0c",
+			"FullPackageHash": "d5c3cc74d42e5a57b1d215be2c7eba20",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "46b87a79dff4595d25573f38b51b7783",
+			"FullPackageHash": "17e0dfc79bd1d8d4fd16ffed4cf870de",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "80ee177443711b70171105900ae58fb2",
+			"FullPackageHash": "0c67253d801b2958a936356a0e2def8f",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
